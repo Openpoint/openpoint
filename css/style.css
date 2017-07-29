@@ -1,0 +1,163 @@
+body {
+font-family: 'Fira Mono', monospace;
+/* font-family: 'Lucida Console',Consolas,monospace; */
+font-size:1em;
+line-height:1.5em;
+color:dimgrey;
+}
+#openpoint{
+padding:20px 0 20px 4px;
+font-size:5.8em;
+line-height:1em;
+color:navy;
+}
+strong {
+font-weight:bold;
+}
+.clearfix{
+clear:both;
+}
+.clearfix:after{
+content:''
+}
+h1 {
+padding:.5em 0;
+border-bottom:1px dashed black;
+border-top:1px dashed black;
+/*color:SteelBlue ;*/
+color:navy;
+margin-bottom:10px;
+line-height:1.2em;
+}
+h1.full{
+margin-top:60px;
+}
+h1.short{
+margin-top:20px;
+}
+h2 {
+text-transform:uppercase;
+font-weight:bold;
+margin-bottom:.5em;
+color:black;
+}
+#menu .grid-8.alpha {
+font-size:1.8em;
+line-height:1.2em;
+text-transform:uppercase;
+}
+#menu {
+width:100%;
+background:rgba(255,255,255,.95);
+z-index:10;
+}
+#menu ul {
+text-align:right;
+position:relative;
+}
+#menu ul{
+	margin-top:8px;
+}
+#menu li {
+display:inline-block;
+}
+#menu a {
+text-decoration:none;
+color:black;
+cursor:pointer;
+}
+li#gotop{
+color:navy ;
+font-size:1.2em;
+cursor:pointer;
+visibility:hidden;
+position:absolute;
+left:0;
+top:0;
+}
+
+#gotop div{
+-ms-transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}
+#folio {
+margin:6em 0 2em 0;
+}
+.folio {
+margin-bottom:1em;
+}
+p {
+font-size:.89em;
+line-height:1.4em;
+margin-bottom:1em;
+}
+.fimage{
+overflow:hidden;
+position:relative;
+
+}
+.fimage img{
+line-height:0;
+}
+.fimage a{
+display:block;
+line-height:0;
+}
+.link {
+text-transform:lowercase;
+font-size:.85em;
+margin-top:.5em;
+display:inline-block;
+background:grey;
+color:white;
+padding:2px 8px;
+text-decoration:none;
+}
+.link:hover{
+background:dimgrey;
+}
+.link:before{
+content:'Visit';
+}
+.divider{
+border-bottom:1px dashed grey;
+margin:2em 0 4em 0;
+}
+.ticon {
+text-decoration:none;
+color:silver;
+display:inline-block;
+padding:.2em;
+}
+.techicons{
+
+font-size:1.2em;
+margin-top:2.5em;
+}
+.ticon:hover{
+color:grey;
+}
+.avatar{
+margin-top:5px;
+}
+.ititle{
+text-align:center;
+margin:30px 0 5px 0;
+text-transform:uppercase;
+}
+.grid-12.outer{
+padding-left:1em;
+padding-right:1em;
+}
+.aboutmain {
+margin:40px 0;
+}
+.framed .mCustomScrollBox{
+
+padding-bottom:2px;
+}
+.framed img{
+border:1px solid #808080;
+box-sizing:border-box;
+}
