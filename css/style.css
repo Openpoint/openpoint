@@ -179,3 +179,6 @@ box-sizing:border-box;
 	-webkit-filter: grayscale(0);
 	filter: none;
 }
+.tech {
+	margin-top:2em;
+}
